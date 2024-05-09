@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.9 (Oracle Corporation Java 1.8.0_202)
+[debug] Load.defaultLoad until apply took 108.2475ms
+[debug]           Load.loadUnit: plugins took 91.4987ms
+[debug]           Load.loadUnit: defsScala took 0.5151ms
+[debug] [Loading] Scanning directory D:\ITI\Scala\Scala Projects\Day1\ScalaCode-20240503T072156Z-001\ScalaCode\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\ITI\Scala\Scala Projects\Day1\ScalaCode-20240503T072156Z-001\ScalaCode\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 134.2183 ms
+[debug]               Load.resolveProject(scalacode-build) took 45.3366ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id scalacode-build, base: D:\ITI\Scala\Scala Projects\Day1\ScalaCode-20240503T072156Z-001\ScalaCode\project, plugins: List(<none>))) took 213.1999ms
+[debug] [Loading] Done in D:\ITI\Scala\Scala Projects\Day1\ScalaCode-20240503T072156Z-001\ScalaCode\project, returning: (scalacode-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 231.3946ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.316ms
+[debug]         Load.loadUnit(file:/D:/ITI/Scala/Scala%20Projects/Day1/ScalaCode-20240503T072156Z-001/ScalaCode/project/, ...) took 329.6152ms
+[debug]       Load.apply: load took 526.098ms
+[debug]       Load.apply: resolveProjects took 7.0472ms
+[debug]       Load.apply: finalTransforms took 50.3786ms
+[debug]       Load.apply: config.delegates took 7.2171ms
+[debug]       Load.apply: Def.make(settings)... took 325.662ms
+[debug]       Load.apply: structureIndex took 91.0879ms
+[debug]       Load.apply: mkStreams took 1.313ms
+[info] loading project definition from D:\ITI\Scala\Scala Projects\Day1\ScalaCode-20240503T072156Z-001\ScalaCode\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 2346.8494ms
+[debug]     Load.loadUnit: defsScala took 0.0045ms
+[debug] [Loading] Scanning directory D:\ITI\Scala\Scala Projects\Day1\ScalaCode-20240503T072156Z-001\ScalaCode
+[debug]       Load.loadUnit: mkEval took 9.2752ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.2847 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 2.1505ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: D:\ITI\Scala\Scala Projects\Day1\ScalaCode-20240503T072156Z-001\ScalaCode, plugins: List(<none>))) took 5.2813ms
+[debug] [Loading] Done in D:\ITI\Scala\Scala Projects\Day1\ScalaCode-20240503T072156Z-001\ScalaCode, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 2326.9257ms
+[debug]     Load.loadUnit: cleanEvalClasses took 23.0491ms
+[debug]   Load.loadUnit(file:/D:/ITI/Scala/Scala%20Projects/Day1/ScalaCode-20240503T072156Z-001/ScalaCode/, ...) took 4698.2607ms
+[debug] Load.apply: load took 4734.4695ms
+[debug] Load.apply: resolveProjects took 0.0924ms
+[debug] Load.apply: finalTransforms took 41.6833ms
+[debug] Load.apply: config.delegates took 0.4013ms
+[debug] Load.apply: Def.make(settings)... took 92.2853ms
+[debug] Load.apply: structureIndex took 27.9594ms
+[debug] Load.apply: mkStreams took 0.0029ms
+[info] set current project to ScalaCode (in build file:/D:/ITI/Scala/Scala%20Projects/Day1/ScalaCode-20240503T072156Z-001/ScalaCode/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-b08221209519d7750cb8
+[debug] Writing bsp connection file
+[info] started sbt server
