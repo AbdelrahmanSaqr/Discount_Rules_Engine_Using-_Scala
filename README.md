@@ -61,6 +61,15 @@ The Discount Rule Engine is designed to automate the process of qualifying order
 3. **Handle Multiple Discounts**: If an order qualifies for multiple discounts, apply the average of the top 2 discounts.
 4. **Log Events**: Log each transaction and any relevant information or warnings.
 5. **Store Data**: Insert processed orders into an Oracle database.
+   
+## Output:
+### Output in Database:
+
+![Capture](https://github.com/AbdelrahmanSaqr/Discount_Rules_Engine_Using_Scala/blob/main/images/Screenshot%202024-05-15%20200758.png)
+
+### Logs File:
+
+![Capture2](https://github.com/AbdelrahmanSaqr/Discount_Rules_Engine_Using_Scala/blob/main/images/Screenshot%202024-05-15%20200850.png)
 
 ## Conclusion
 The Discount Rule Engine is a powerful tool for retail stores to automate the process of qualifying orders for discounts and calculating the appropriate discount. Its functional programming approach ensures robust, maintainable, and predictable code. The engine not only simplifies the discount application process but also provides flexibility for adding new rules and criteria in the future.
