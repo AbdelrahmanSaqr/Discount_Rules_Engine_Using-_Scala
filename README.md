@@ -62,5 +62,5 @@ The Discount Rule Engine is designed to automate the process of qualifying order
 4. **Log Events**: Log each transaction and any relevant information or warnings.
 5. **Store Data**: Insert processed orders into an Oracle database.
 
-### Conclusion
+## Conclusion
 The Discount Rule Engine is a powerful tool for retail stores to automate the process of qualifying orders for discounts and calculating the appropriate discount. Its functional programming approach ensures robust, maintainable, and predictable code. The engine not only simplifies the discount application process but also provides flexibility for adding new rules and criteria in the future.
